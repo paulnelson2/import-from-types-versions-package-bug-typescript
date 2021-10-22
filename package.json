@@ -1,0 +1,10 @@
+{
+  "name": "@typescript-import-bug/root",
+  "description": "root package, see ./lib for the failing package",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "install-all": "npm install && cd lib && npm install && cd ../main && npm install"
+  }
+}

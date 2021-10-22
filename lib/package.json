@@ -1,0 +1,14 @@
+{
+  "name": "@typescript-import-bug/lib",
+  "description": "Package with a directory default export (index.ts) and typesVersions wildcard which can't be imported correctly",
+  "exports": {
+    "./*": "./src/*"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "src/*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "@typescript-import-bug/main",
+  "description": "Package that imports from the failing lib package",
+  "dependencies": {
+    "@typescript-import-bug/lib": "file:../lib"
+  }
+}
